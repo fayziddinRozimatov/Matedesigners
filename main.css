@@ -45,7 +45,7 @@
 }
 body {
     margin: 0;
-    font-family: "Inter","Arial", sans-serif;
+    font-family: "Inter","Open Sans","Arial", sans-serif;
 }
 .site-header {
     background-color: #282829;
@@ -105,7 +105,6 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 114px;
-    margin-bottom: 114px;
     color: #fff;
 }
 .hero-title {
@@ -177,15 +176,21 @@ body {
 }
 .unsplash-title {
     text-align: center;
+    font-family: 'Open Sans';
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 36px;
 }
 .unsplash-text {
+    
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 400;
-    text-align: center;
     font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
     margin-top: 0;
     margin-bottom: 0;
 }
